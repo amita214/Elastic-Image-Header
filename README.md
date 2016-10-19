@@ -18,7 +18,7 @@ That's it! Run you code and you have a perfectly autolayed out `UIScrollView`.
 
 Have you ever seen those apps where the image at the top seems to zoom in when scrolled down and snap back to its original state when released? Here is a way to implement that with just a couple of layout constraint changes.
 
-1. Add an `UIImageView` at the top of the `UIScrollView`'s content view. Pin its leading and training edges to the parent view.
+1. Add an `UIImageView` at the top of the `UIScrollView`'s content view. Pin its leading and trailing edges to the parent view.
 
 2. Add a constraint from the top of the image view to the top of the *Top Layout Guide*. Set the constant to 0. Do <u>**not**</u> add a height constraint to the image view.
 
